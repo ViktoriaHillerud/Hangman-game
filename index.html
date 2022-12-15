@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman - The Game</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Hangman - The Game</h1>
+    </header>
+    <main>
+        <article>
+            <h3>Välkommen till spelet Hänga Gubbe!</h3>
+            <p>Spelet handlar om att gissa ordet och undgå att bli hängd!<br>
+            Temat för detta spel är: <b>Instrument</b>!<br></p>
+            <p>Starta spelet genom att klicka på knappen: <b>"Start Game"</b> och då kommer du se rutor där bokstäverna ska in!<br>
+            (Tryck sedan på bokstavsknapparna nedan för att gissa bokstäverna till ordet!)</p>
+        </article>
+            <button type="button" id="startGame">Start Game</button>
+        <section id="letters">
+            <button type="button" class="letterBtns">A</button>
+            <button type="button" class="letterBtns">B</button>
+            <button type="button" class="letterBtns">C</button>
+            <button type="button" class="letterBtns">D</button>
+            <button type="button" class="letterBtns">E</button>
+            <button type="button" class="letterBtns">F</button>
+            <button type="button" class="letterBtns">G</button>
+            <button type="button" class="letterBtns">H</button>
+            <button type="button" class="letterBtns">I</button>
+            <button type="button" class="letterBtns">J</button>
+            <button type="button" class="letterBtns">K</button>
+            <button type="button" class="letterBtns">L</button>
+            <button type="button" class="letterBtns">M</button>
+            <button type="button" class="letterBtns">N</button>
+            <button type="button" class="letterBtns">O</button>
+            <button type="button" class="letterBtns">P</button>
+            <button type="button" class="letterBtns">Q</button>
+            <button type="button" class="letterBtns">R</button>
+            <button type="button" class="letterBtns">S</button>
+            <button type="button" class="letterBtns">T</button>
+            <button type="button" class="letterBtns">U</button>
+            <button type="button" class="letterBtns">V</button>
+            <button type="button" class="letterBtns">W</button>
+            <button type="button" class="letterBtns">X</button>
+            <button type="button" class="letterBtns">Y</button>
+            <button type="button" class="letterBtns">Z</button>
+            <button type="button" class="letterBtns">Å</button>
+            <button type="button" class="letterBtns">Ä</button>
+            <button type="button" class="letterBtns">Ö</button>
+        </section>
+
+
+        <section id="letterBoxes"></section>
+
+        <section id="livesRemain"></section>
+
+        <section id="message"></section>
+
+        <section>
+            <button id="restartBtn" onclick="history. go(0)"></button>
+        </section>
+
+        <img id="hangman" src="images/h0.png" alt="hangman">
+
+
+    </main>
+
+
+
+    <footer></footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
